@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="32" it="0" lt="29" ct="19" ts="1679607020676" s="true" lb="HTTP Request" rc="200" rm="" tn="Thread Group 1-1" dt="text" by="271" sby="495" ng="1" na="1">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">[{&quot;Name&quot;:&quot;Name1&quot;,&quot;Value&quot;:&quot;60&quot;,&quot;DefaultValue&quot;:&quot;&quot;},{&quot;Name&quot;:&quot;Name2&quot;,&quot;Value&quot;:&quot;120&quot;,&quot;DefaultValue&quot;:&quot;&quot;}]</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#xd;
+&lt;PropertyList&gt;&#xd;
+    &lt;Property&gt;&#xd;
+        &lt;Name&gt;Name1&lt;/Name&gt;&#xd;
+        &lt;Value&gt;60&lt;/Value&gt;&#xd;
+        &lt;DefaultValue&gt;&lt;/DefaultValue&gt;&#xd;
+    &lt;/Property&gt;&#xd;
+    &lt;Property&gt;&#xd;
+        &lt;Name&gt;Name2&lt;/Name&gt;&#xd;
+        &lt;Value&gt;120&lt;/Value&gt;&#xd;
+        &lt;DefaultValue&gt;&lt;/DefaultValue&gt;&#xd;
+    &lt;/Property&gt;&#xd;
+&lt;/PropertyList&gt;</queryString>
+  <java.net.URL>http://localhost:8080/</java.net.URL>
+</httpSample>
+<httpSample t="4" it="0" lt="4" ct="0" ts="1679607020743" s="true" lb="HTTP Request" rc="200" rm="" tn="Thread Group 1-1" dt="text" by="272" sby="496" ng="1" na="1">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">[{&quot;Name&quot;:&quot;Name1&quot;,&quot;Value&quot;:&quot;60&quot;,&quot;DefaultValue&quot;:1},{&quot;Name&quot;:&quot;Name2&quot;,&quot;Value&quot;:&quot;120&quot;,&quot;DefaultValue&quot;:null}]</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#xd;
+&lt;PropertyList&gt;&#xd;
+    &lt;Property&gt;&#xd;
+        &lt;Name&gt;Name1&lt;/Name&gt;&#xd;
+        &lt;Value&gt;60&lt;/Value&gt;&#xd;
+        &lt;DefaultValue&gt;&lt;/DefaultValue&gt;&#xd;
+    &lt;/Property&gt;&#xd;
+    &lt;Property&gt;&#xd;
+        &lt;Name&gt;Name2&lt;/Name&gt;&#xd;
+        &lt;Value&gt;120&lt;/Value&gt;&#xd;
+        &lt;DefaultValue&gt;&lt;/DefaultValue&gt;&#xd;
+    &lt;/Property&gt;&#xd;
+&lt;/PropertyList&gt;</queryString>
+  <java.net.URL>http://localhost:8080/1</java.net.URL>
+</httpSample>
+
+</testResults>
